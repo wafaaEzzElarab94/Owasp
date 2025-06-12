@@ -2,7 +2,7 @@
 This is a project for Web Application Automation Project
 Selenium Code - Java (Cucumber) with Chrome driver setup
 
-Description. : This is a demo testcase on java tech with cucumber and selenium test. There are couple testcases ( 2 automation scripts ): which validates the business scenarios: Scenario 1: Validate user is able to view after log in Scenario 2: Validate new user is able to view after clicking on new Registration This simple tests are to validate on the sample application: https://anupdamoda.github.io/AceOnlineShoePortal/index.html
+Description. : This is a demo testcase on java tech with cucumber and selenium test. There are couple testcases ( 2 automation scripts ): which validates the business scenarios: Scenario 1: Validate user is able to view after log in Scenario 2: Validate new user is able to view after clicking on new Registration This simple tests are to validate on the sample application: (https://owasp.org/www-project-juice-shop/)
 
 Table of Contents
 Introduction
@@ -10,7 +10,7 @@ Features
 Requirements
 Quick Start
 Introduction
-This is a demo testcase on java tech with cucumber and selenium test. This simple test is to validate the product page is appearing post login on the sample application: https://anupdamoda.github.io/AceOnlineShoePortal/index.html
+This is a demo testcase on java tech with cucumber and selenium test. This simple test is to validate the product page is appearing post login on the sample application: (https://owasp.org/www-project-juice-shop/)
 
 Features
 Selenium Tests
