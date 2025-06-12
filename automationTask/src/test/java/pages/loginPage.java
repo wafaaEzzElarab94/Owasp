@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import utility.browserDriver;
 
+import static utility.sharedData.email;
+
 public class loginPage extends browserDriver {
     public static String loginTitle = "//h1[@class=\"loginTitle\"]";
     public static String emailAddress = "//input[@name=\"email\"]";
@@ -17,12 +19,12 @@ public static String verifyPageHeader()  {
      String loginPageHeader =driver.findElement(By.xpath(loginTitle)).getText();
      return loginPageHeader;
     }
-    public static void setEmailAddress() throws InterruptedException {
+    public static void setEmailAddress(String email) throws InterruptedException {
         Thread.sleep(2000);
-        driver.findElement(By.xpath(emailAddress)).sendKeys();
+        driver.findElement(By.xpath(emailAddress)).sendKeys(email);
     }
-    public static void setPassword(){
-        driver.findElement(By.xpath(password)).sendKeys();
+    public static void setPassword(String password){
+        driver.findElement(By.xpath(password)).sendKeys(password);
     }
     public static void clickLoginButton()  {
         driver.findElement(By.xpath(loginButton)).click();

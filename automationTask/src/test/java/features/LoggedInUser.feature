@@ -2,8 +2,6 @@
 Feature: User Login
 
   Scenario: Login with registered user credentials
-    Given I open the Juice Shop website
-  When I navigate to the login page
-  And I enter valid credentials
-  And I submit the login form
- Then I should be logged in successfully
+    Given User open the Login Page
+    When User send the email address and password
+    Then User should be able to see verfication popup

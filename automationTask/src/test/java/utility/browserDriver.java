@@ -16,6 +16,7 @@ public class browserDriver {
         System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+
                 "/src/test/resources/chromedriver.exe" );
         this.driver=new ChromeDriver();
+        driver.manage().window().maximize();
         driver.get("https://owasp.org/www-project-juice-shop/");
     }
     public void close(){
