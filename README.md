@@ -31,5 +31,14 @@ Local
 Java 11 SDK
 Maven
 ChromeDriver
+
 Execution modes 
 command: mvn test
+
+ This Pipeline Does
+Manual trigger via GitHub UI
+Scheduled runs daily at 3 AM UTC
+Java setup using Temurin JDK
+Maven caching for faster builds
+Runs tests and generates reports
+Uploads the HTML report as an artifact
