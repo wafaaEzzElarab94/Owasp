@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="automationTask" />
+        <module name="Owasp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="automationTask" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
