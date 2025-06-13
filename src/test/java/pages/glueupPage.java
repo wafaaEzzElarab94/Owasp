@@ -1,9 +1,10 @@
 package pages;
 
 import org.openqa.selenium.By;
-import utility.browserDriver;
+import utility.BrowserDriver;
 
-public class glueupPage extends browserDriver {
+
+public class glueupPage extends BrowserDriver {
     public static String LoginButton = "//a[@class=\"signin\"]";
     public static String RegisterNow = "//a[contains(text(), 'Register Now')]";
 

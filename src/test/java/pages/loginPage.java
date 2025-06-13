@@ -1,11 +1,12 @@
 package pages;
 
 import org.openqa.selenium.By;
-import utility.browserDriver;
+import utility.BrowserDriver;
+
 
 import static utility.sharedData.email;
 
-public class loginPage extends browserDriver {
+public class loginPage extends BrowserDriver {
     public static String loginTitle = "//h1[@class=\"loginTitle\"]";
     public static String emailAddress = "//input[@name=\"email\"]";
     public static String password = "//input[@name=\"password\"]";

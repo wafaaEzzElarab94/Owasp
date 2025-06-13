@@ -1,11 +1,12 @@
 package pages;
 
 import org.openqa.selenium.By;
-import utility.browserDriver;
+import utility.BrowserDriver;
+
 
 import static utility.sharedData.email;
 
-public class registerAccountPage extends browserDriver {
+public class registerAccountPage extends BrowserDriver {
     public static String emailAddressTextBox = "//input[@type=\"text\"]";
     public static String checkbox = "//span[@class=\"label-content\"]";
     public static String continueButton = "//button[@class=\"bigger filled marked filled continue-button button\"]";

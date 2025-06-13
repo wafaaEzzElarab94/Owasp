@@ -1,0 +1,14 @@
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/pages/HomePage.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/pages/glueupPage.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/pages/loginPage.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/pages/registerAccountPage.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/pages/registerByEmail.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/runner/TestRunner.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/stepDefinition/BasePage.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/stepDefinition/LoginPage.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/stepDefinition/RegisterAccount.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/stepDefinition/RegisterByEmail.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/stepDefinition/glueup.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/utility/browserDriver.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/utility/hooks.java
+/Users/wafaaezzelarab/Documents/GitHub/Owasp/src/test/java/utility/sharedData.java

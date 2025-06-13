@@ -1,9 +1,9 @@
 package pages;
 
 import org.openqa.selenium.By;
-import utility.browserDriver;
+import utility.BrowserDriver;
 
-public class HomePage extends browserDriver {
+public class HomePage extends BrowserDriver {
     public static String JoinButton ="//a[@class=\"cta-button\"]";
 
     //actions

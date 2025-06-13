@@ -1,11 +1,11 @@
 package pages;
 
 import org.openqa.selenium.By;
-import utility.browserDriver;
+import utility.BrowserDriver;
 
 import static utility.sharedData.*;
 
-public class registerByEmail extends browserDriver {
+public class registerByEmail extends BrowserDriver {
     public static String firstNameTextBox = "//input[@name=\"firstName\"]";
     public static String lastNameTextBox = "//input[@name=\"lastName\"]";
     public static String passwordTextBox = "//input[@name=\"password\"]";
