@@ -33,7 +33,8 @@ Maven
 ChromeDriver
 
 Execution modes 
-command: mvn test
+command: mvn test or from Test Runner 
+
 
  This Pipeline Does
 Manual trigger via GitHub UI
